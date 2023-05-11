@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main.first{
+    width: 98%;
+    height: 98%;
+    border: 4px solid rgb(169, 168, 168);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    gap: 3px;
+}
+header.cabezera{
+    width: 98%;
+    height: 60px;
+    border: 3px solid rgba(195, 237, 153, 0.835);
+    display: flex; 
+    flex-direction: column;
+      
+}
+nav.navCabezera{
+    width: 98%;
+    height: 40px;
+    border: 3px solid rgb(188, 156, 180);   
+}
+div.separador{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 98%;
+    gap: 5px;
+}
+article{
+    width: 98%;
+    height: 99%;
+    border: 3px solid rgb(55, 202, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+p.article{
+    width: 98%;    
+}
+header.articleHeader{
+    width: 98%;
+    height: 30px;
+    border: 3px solid rgb(195, 237, 153, 0.835);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+div.articleEnd {
+    width: 98%;
+    height: 80%;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: end;
+}
+.articleEnd{ 
+    display: flex;
+    flex-direction: column;  
+    gap: 3px;
+}
+.articleEndF{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+     
+}
+section{
+    width: 100%;
+    height: 30px;
+    border: 3px solid rgba(188, 75, 185);
+    display: flex;  
+    
+}
+div.asideDiv{
+    width: 27%;
+    height: 99%;
+    border: 3px solid rgba(254, 241, 58);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 5px; 
+}
+aside{
+    width: 95%;
+    height: 48%;
+    border: 3px solid rgba(65, 240, 240); 
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;  
+}
+p.Div{
+    width: 95%;   
+}
+footer{
+    width: 98%;
+    height: 40px;
+    border: 3px solid rgb(232, 244, 137);
+    display: flex;
+}
+
+
+
+
+
+
+       
+   
