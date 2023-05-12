@@ -7,15 +7,15 @@
 body{
   width: 100vw;
   height: 100vh;
-  border: 5px solid rgb(219, 0, 0);
+  /* border: 5px solid rgb(219, 0, 0); */
 }
 
 header{
     width: 100%;
     height: 5%;
-    border: 5px solid rgb(105, 182, 255);
-    background-color: rgba(187, 187, 187, 0.557);
-    color: rgb(145, 50, 79);
+    border: 5px solid rgb(0, 0, 0);
+    background-color: white;
+    /* color: rgb(145, 50, 79); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,54 +24,109 @@ header{
 main{
     width: 100%;
     height: 70%;
-    border: 4px solid black;
+    /* border: 4px solid black; */
     display: flex;
+    background-color: beige;
 }
 
 div.presentacion {
     width: 50%;
     height: 100%;
-    border: 4px solid rgb(223, 252, 34);
+    /* border: 4px solid rgb(223, 252, 34); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+h2.presentacionTitulo{
+    width: 50%;
+    height: 20%;
+    /* border: 4px solid rgb(162, 65, 116); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+p.presentacionParr{
+    width: 50%;
+    height: 60%;
+    /* border: 4px solid rgb(162, 65, 116); */
 }
 
 div.ofertas {
     width: 25%;
     height: 100%;
-    border: 4px solid rgb(80, 90, 14);
+    /* border: 4px solid rgb(80, 90, 14); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+h2.ofertasTitulo{
+    width: 50%;
+    height: 20%;
+    /* border: 4px solid rgb(162, 65, 116); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+img.ofertaImg{
+    width: 50%;
+    height: 30%;
+    border: 4px solid rgb(7, 7, 7);
 }
 
 div.masVistos {
     width: 25%;
     height: 100%;
-    border: 4px solid rgb(227, 100, 227);
+    /* border: 4px solid rgb(227, 100, 227); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+h2.ofertasMas{
+    width: 50%;
+    height: 20%;
+    /* border: 4px solid rgb(162, 65, 116); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+img.masImg{
+    width: 50%;
+    height: 30%;
+    border: 4px solid rgb(7, 7, 7);
+    
 }
 
 div.divFinal{
     width: 100%;
     height: 25%;
-    border: 4px solid rgb(112, 253, 110);
+    background-color: beige;
+    /* border: 4px solid rgb(112, 253, 110); */
     display: flex;
     justify-content: center;
+    align-items: end;
 }
 
-div.contacto {
+div.formulario {
     width: 80%;
-    height: 100%;
+    height: 70%;
+    background-color: white;
+
     border: 4px solid rgb(5, 5, 5);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
-}
-
-div.saberMas {
-    width: 40%;
-    height: 100%;
-    border: 4px solid rgb(223, 106, 106);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
 }
