@@ -34,13 +34,15 @@ function enviarForm(event) {
 
 // Funcion para filtrar los objetos.
 function filtrarSol() {
-    const destinosPermitidos = ["canarias", "mallorca", "galicia"]
+    const destinosPermitidos = ["canarias", "mallorca", "galicia"];
+    let datosFiltrados = "";
 
     for (let i = 0; i < solicitudes.length; i++) {
         let destino = solicitudes[i].destino.toLowerCase();
         if (destinosPermitidos.includes(destino)) {
             console.log(solicitudes[i]);
-            alert(`Nombre: ${solicitudes[i].nombre}\nOrigen: ${solicitudes[i].origen}\nDestino: ${solicitudes[i].destino}\nPersonas: ${solicitudes[i].personas}\nFecha: ${solicitudes[i].fecha}`);
+            datosFiltrados += `Nombre: ${solicitudes[i].nombre}, Origen: ${solicitudes[i].origen} Destino: ${solicitudes[i].destino} Personas: ${solicitudes[i].personas} Fecha: ${solicitudes[i].fecha}<br>`;
         }
     }
+    document.getElementById("datosFiltrados").innerHTML = datosFiltrados;
 }
