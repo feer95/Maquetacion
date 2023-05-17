@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactoStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CN Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Logo.png" alt="" class="logo">
+        <div class="btnsHead">
+            <a href="home.html" class="btnInicio">Home</a>
+            <a href="docentes.html" class="otherBtns">Docentes</a>
+            <a href="cursos.html" class="otherBtns">Cursos</a>
+            <a href="#" class="otherBtns">Contacto</a>
+    </header>
+        </div>
+        <main class="tablaCont">
+           <div><h2 class="titulo">Déjanos tus datos, te llamamos!</h2></div>
+           <table class="tabla-contacto">
+            <tr>
+              <td><label for="nombre">Nombre:</label></td>
+              <td><input type="text" id="nombre" name="nombre" required></td>
+            </tr>
+            <tr>
+              <td><label for="apellidos">Apellidos:</label></td>
+              <td><input type="text" id="apellidos" name="apellidos" required></td>
+            </tr>
+            <tr>
+              <td><label for="telefono">Teléfono:</label></td>
+              <td><input type="tel" id="telefono" name="telefono" required></td>
+            </tr>
+            <tr>
+              <td><label for="email">Correo electrónico:</label></td>
+              <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+              <td><label for="conociste">¿Cómo nos conociste?:</label></td>
+              <td>
+                <select id="conociste" name="conociste" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="Redes sociales">Redes sociales</option>
+                  <option value="Recomendación de un amigo">Recomendación de un amigo</option>
+                  <option value="Prensa o medios de comunicación">Prensa o medios de comunicación</option>
+                  <option value="Búsqueda en Internet">Búsqueda en Internet</option>
+                  <option value="Otros">Otros</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="bootcamp">Bootcamp en el que estás interesado:</label></td>
+              <td><input type="text" id="bootcamp" name="bootcamp" required></td>
+            </tr>
+            <tr>
+              <td><label for="modalidad">Modalidad:</label></td>
+              <td>
+                <select id="modalidad" name="modalidad" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="FT Presencial">FT Presencial</option>
+                    <option value="FT Online">FT Online</option>
+                    <option value="Part">Part Time</option>
+                  </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button type="submit">Enviar</button></td>
+            </tr>
+          </table>          
+        </main>
+        <footer>
+            <div class="btnFot">
+                <ul class="lista">
+                    <li><a class="listaF" href="home.html">Home</a></li>
+                    <li><a class="listaF" href="docentes.html">Docentes</a></li>
+                    <li><a class="listaF" href="cursos.html">Cursos</a></li>
+                    <li><a class="listaF" href="#">Contacto</a></li>
+                    <li><a class="listaF" href="https://www.codenotch.com/terminos-y-condiciones">Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="copy">
+                <img src="Imagenes/Logo.png" alt="" class="logoF">
+                <p>© Codenotch 2021 - 2023 | All rights reserved</p>
+            </div>
+            <div class="logos">
+                <a href="https://www.facebook.com/codenotchMAD/">
+                <i class="fa-brands fa-facebook-f" style="color: #12f294;"></i>
+                </a>
+                
+                <a href="https://twitter.com/CodenotchMAD">
+                <i class="fa-brands fa-twitter" style="color: #12f294;"></i>
+                </a>
+                  
+                <a href="https://www.linkedin.com/school/codenotch/">
+                    <i class="fa-brands fa-linkedin-in" style="color: #12f294;"></i>
+                </a>
+    
+                <a href="https://www.instagram.com/codenotchmad/?hl=es">
+                        <i class="fa-brands fa-instagram" style="color: #12f294;"></i>
+                </a>
+            </div>
+        </footer>
+    
+</body>
+</html>
