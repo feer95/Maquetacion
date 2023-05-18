@@ -191,26 +191,29 @@ footer {
             font-weight: 500;
         }
 
-        @media screen and (max-width:870px) {
-            body{
-                width: 500px;
-                height: 100%;
-                margin-left: 150px;
-                
-            }
-
-            .iphone {
-               display: none;
-            }
-            .form {
-                width: 350px;
-                height: 100%;
-            }
-            .footerCont{
-                width: 400px;
-                border: 2px solid red;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-            }
-        }
+       
+@media screen and (max-width:870px) {
+    body {
+        max-width: 100%;
+    }
+    .iphone {
+        margin-left: -150px;
+    }
+}
+@media screen and (max-width:870px) {
+    .iphone {
+        display: none;
+    }
+    .form {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+    footer {
+        width: 90%;
+    }
+    .footerCont{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
