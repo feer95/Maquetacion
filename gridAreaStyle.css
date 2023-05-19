@@ -37,7 +37,7 @@
 
 
 .padre2 {
-    height: 560px;
+    height: 590px;
     display: grid;
     grid-template-columns: 1fr 2fr; /* Corrección aquí */
 }
@@ -99,7 +99,7 @@
 
 
 footer {
-    height: 80px;
+    height: 85px;
     background-color:darkred;
     text-align: center;
     color: white;
