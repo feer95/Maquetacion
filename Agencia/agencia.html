@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenStyle.css">
+    <title>Agencia de Viajes</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">/--Landing Page--/</h2>
+    </header>
+    <main>
+        <div class="presentacion">
+            <h2 class="presentacionTitulo">La agencia</h2>
+            <p class="presentacionParr">Bienvenidos a nuestra web! Somos la agencia de viajes "la agencia" y somos unos apasionados del viaje y por eso ofrecemos las mejores experiencias alrededor de todo el mundo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum natus exercitationem, doloribus iusto sint est. Quod saepe laborum ut soluta dolor! Numquam fuga, eos quasi libero explicabo asperiores. Exercitationem, totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab earum nemo quidem culpa rerum? Nam, facere ipsum. Veritatis, illo, deserunt, repellat expedita id laboriosam explicabo ducimus a rem earum temporibus?</p>
+        </div>
+        <div class="ofertas">
+            <h2 class="ofertasTitulo">Ofertas</h2>
+            <img src="imagenesAgencia/venecia.jpeg" alt="" class="ofertaImg">
+            <img src="imagenesAgencia/uganda.jpeg" alt="" class="ofertaImg">
+        </div>
+        <div class="masVistos">
+            <h2 class="ofertasMas">+ Vistos</h2>
+            <img src="imagenesAgencia/canarias.jpeg" alt="" class="masImg">
+            <img src="imagenesAgencia/galicia.jpeg" alt="" class="masImg">
+            <img src="imagenesAgencia/mallorca.jpeg" alt="" class="masImg">
+        </div>
+    </main>
+    <div class="divFinal">
+        <div class="formulario">
+            <h3>Formulario de Contacto</h3>
+            <form onsubmit="enviarForm(event)">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+          
+              <label for="origen">Origen:</label>
+              <input type="text" id="origen" name="origen" required>
+          
+              <label for="destino">Destino:</label>
+              <input type="text" id="destino" name="destino" required>
+          
+              <label for="personas">Número de personas:</label>
+              <input type="number" id="personas" name="personas" required>
+
+              <label for="fecha">Fecha:</label>
+              <input type="date" id="fecha" name="fecha" required>
+          
+              <button type="button" id="solicitarInfo" onclick="enviarForm(event)">Solicitar información</button>
+              <button type="button" id="filtrar" onclick="filtrarSol()">Filtrar</button>
+            </form>
+          </div>
+          <div class="datos">
+            <h3 class=" datosTitulo">Datos Filtrados</h3>
+            <div class="datosFil" id="datosFiltrados"></div>
+          </div>
+    </div>
+    <script src="agenIndex.js"></script>
+</body>
+</html>
