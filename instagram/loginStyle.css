@@ -158,8 +158,10 @@ footer {
     .footerCont {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
-        font-size: 14px;    
+        font-size: 14px; 
+        gap: 10px;   
     }
         .btnsFoot {
             text-decoration: none;
@@ -191,29 +193,52 @@ footer {
             font-weight: 500;
         }
 
-       
-@media screen and (max-width:870px) {
-    body {
-        max-width: 100%;
-    }
-    .iphone {
-        margin-left: -150px;
-    }
-}
-@media screen and (max-width:870px) {
-    .iphone {
-        display: none;
-    }
-    .form {
-        width: 350px;
-        margin-bottom: 50px;
-    }
-    footer {
-        width: 90%;
-    }
-    .footerCont{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-}
+        @media screen and (max-width:1020px) {
+            .principal{
+                width:100%
+            }
+        }
+          
+          /* Tablet */
+          
+          @media screen and (min-width: 481px) and (max-width: 800px) {
+            .principal {
+              flex-direction: column;
+              align-items: center;
+            }
+          
+            .iphone {
+              display: none;
+            }
+          
+            .form {
+              width: 70%;
+              height: auto;
+            }
+          }
+          
+          /* Movil */
+          
+          @media screen and (max-width: 480px) {
+            .principal {
+              flex-direction: column;
+              align-items: center;
+            }
+          
+            .iphone {
+              display: none;
+            }
+          
+            .form {
+              width: 90%;
+              height: auto;
+            }
+
+            footer {
+                display: flex;
+                flex-wrap: wrap;
+            }
+          
+            
+          }
+  
