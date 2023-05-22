@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 580px 290px 580px;
+    grid-template-rows: 360px 360px ;
+}
+.hijo1{
+    text-align: center;
+    color: white;
+    background-color: greenyellow;
+}
+.hijo2{
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+.hijo3{
+    text-align: center;
+    color: white;
+    background-color: orangered;
+}
+.hijo4{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+.hijo5{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.hijo6{
+    text-align: center;
+    color: white;
+    background-color: yellow;
+}
