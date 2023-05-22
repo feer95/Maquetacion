@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.padre1 {
+    height: 10vh;
+    background-color: red;
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    grid-template-areas: 
+        "header"
+        "imagen";  
+}
+
+.header {
+    background-color: brown;
+    text-align: center;
+    grid-area: header;
+    color: white;
+    padding-top: 10px;
+    height: 100%;
+    width: 70%;
+}
+
+.imagen {
+    background-color: darkred;
+    text-align: center;
+    grid-area: imagen;
+    color: white;
+    padding-top: 10px;
+    height: 100%;
+    width: 30%;
+}
+
+.padre2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.cont1 {
+    height: 80vh;
+    background-color: rgb(253, 124, 3);
+    display: grid;
+    grid-template-areas:
+                        "aside"
+                        "vacio"
+                        "aside1";
+    justify-items: center;
+    align-items: center;
+}
+
+.aside {
+    width: 90%;
+    height: 70%;
+    grid-area: aside;
+    background-color: white;
+    text-align: center;
+    color: rgb(253, 124, 3);
+    padding-top: 10px;
+}
+
+.aside1 {
+    width: 90%;
+    height: 70%;
+    grid-area: aside1;
+    background-color: white;
+    text-align: center;
+    color: rgb(253, 124, 3);
+    padding-top: 10px;
+}
+
+.cont2 {
+    height: 80vh;
+    background-color: orangered;
+    display: grid;
+    grid-template-areas:
+        "aside3"
+        "aside4";
+    justify-items: center;
+    align-items: center;
+}
+
+.aside3 {
+    width: 95%;
+    height: 95%;
+    grid-area: aside3;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.aside4 {
+    width: 95%;
+    height: 95%;
+    grid-area: aside4;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+footer {
+    height: 10vh;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
