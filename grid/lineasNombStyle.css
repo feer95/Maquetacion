@@ -139,9 +139,8 @@
         grid-row: y0;
         border: 2px solid black;
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
+        
     }
     .fot2{
         width: 97.5%;
@@ -150,7 +149,5 @@
         grid-row: y0;
         border: 2px solid black;
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
     }
