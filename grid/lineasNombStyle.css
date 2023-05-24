@@ -84,9 +84,10 @@
         grid-row: y0;
         border: 2px solid black;
         color: white;
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: center;
+        text-align: center;
+        
     }
     .menu1{
         width: 90%;
@@ -95,9 +96,9 @@
         grid-row: y1;
         color: white;
         background-color: black;
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: center;
+        text-align: center;
     }
     .menu2{
         width: 90%;
@@ -106,9 +107,9 @@
         grid-row: y2;
         color: white;
         background-color: black;
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: center;
+        text-align: center;
     }
     .menu3{
         width: 90%;
@@ -117,9 +118,9 @@
         grid-row: y3;
         color: white;
         background-color: black;
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: center;
+        text-align: center;
     }
 
 .footer {
